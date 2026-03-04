@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Bienvenue à BreylTown</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js" defer></script>
+    </head>
+<body>
+    <div class="page-layout"> 
+        <header class="site-hero">
+            <div class="hero">
+            <img src="Images/header.town.jpg" alt="">
+            <h1 class="hero-title"><em>Akwaba to<br>BreylTown<br>Village !</em></h1>
+            </div>
+        </header>    
+    
+<main>
+    <div class="right-side">
+    <h2>Bienvenue à BreylTown !</h2>
+    <div class="content">
+        <p>Le <strong>BreylFest</strong> arrive à grand pas !
+        <br />
+        La dernière édition a été un franc succès.
+        <br />
+        Inscrivez-vous dès maintenant à la prochaine édition.
+        </p>
+        <h3>Ils sont déjà inscrits</h3>
+        <h3>Liste des participants</h3>
+        <ul id="liste"></ul>
+        
+    </div>
+    
+
+    <form id="monFormulaire">
+      <h2>Inscrivez-vous</h2>
+        <label for="nom">Votre nom</label>
+         <input type="text" id="nom" required />
+        <label for="avatar">Choissez votre avatar</label>
+        <select id="avatar">
+         <option value="public/boy">Masculin</option>
+         <option value="public/girl">Féminin</option>
+         <option value="username">Autre</option>
+        </select>
+
+        <button type="submit">Je m'inscris</button>
+    </form> 
+    </div>
+    </div>
+</main>
+</body>   
+</html>
+
+ 
